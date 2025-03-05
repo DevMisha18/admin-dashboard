@@ -4,7 +4,7 @@ import { createTheme } from "@mui/material/styles";
 import { Theme, ThemeOptions } from "@mui/material/styles";
 
 // color design tokens export
-interface ColorTokens {
+export interface ColorTokens {
   grey: { [key: string]: string };
   primary: { [key: string]: string };
   greenAccent: { [key: string]: string };
@@ -203,7 +203,7 @@ export const themeSettings = (mode: "light" | "dark"): ThemeOptions => {
   };
 };
 
-interface ColorModeContextValue {
+export interface ColorModeContextValue {
   toggleColorMode: () => void;
 }
 

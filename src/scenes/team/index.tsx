@@ -101,7 +101,7 @@ const Team: FC = () => {
           },
         }}
       >
-        <DataGrid rows={mockDataTeam} columns={columns} />
+        <DataGrid checkboxSelection rows={mockDataTeam} columns={columns} />
       </Box>
     </Box>
   );
